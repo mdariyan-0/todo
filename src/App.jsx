@@ -149,12 +149,12 @@ function App() {
                           onClick={(elem) => {
                             handleCheck(e, elem);
                           }}
-                          src="/check.svg"
+                          src="/public/check.svg"
                           alt="Ok"
                         />
                       </p>
                       <img
-                        src="/edit.svg"
+                        src="/public/edit.svg"
                         alt="Edit"
                         onClick={(elem) => {
                           Array.from(
@@ -186,7 +186,7 @@ function App() {
                         className="edit"
                       />
                       <img
-                        src="/trash.svg"
+                        src="/public/trash.svg"
                         alt="Delete"
                         onClick={() => {
                           handleDelete(e.id);
