@@ -140,7 +140,7 @@ function App() {
                             textDecoration: e?.isChecked
                               ? "line-through"
                               : "none",
-                              opacity: e?.isChecked ? "50%" : "100%"
+                            opacity: e?.isChecked ? "50%" : "100%",
                           }}
                         >
                           {e?.text}

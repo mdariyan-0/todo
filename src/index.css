@@ -168,12 +168,13 @@ ul {
 }
 @media (max-width: 775px) {
   .toggle{
-    top: 13%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    margin-top: 20px;
   }
-  .header{
-    margin-bottom: 40px;
+  .sub-body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   
 }
